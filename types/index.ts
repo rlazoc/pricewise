@@ -22,9 +22,11 @@ export type Product = {
   description: string
   category: string
   reviewsCount: number
+  recommendation?: number
   stars: number
   isOutOfStock: boolean
   users?: User[]
+  likeAmount?: number
 }
 
 export type NotificationType =

@@ -50,9 +50,7 @@ const Home = () => {
             ))}
           </div>
         </section>
-      ) : (
-        <p>No products found.</p>
-      )}
+      ) : null}
     </>
   )
 }

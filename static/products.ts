@@ -3,7 +3,7 @@ import { Product } from '@/types'
 export const Products: Product[] = [
   {
     _id: '1',
-    url: 'https://www.amazon.com/Apple-iPhone-15-Plus-256GB/dp/B0CMT3P49Q/ref=sr_1_1?crid=2G5FAYGB497W7&dib=eyJ2IjoiMSJ9.uAJICCJYICCVff3ATozpbDa6mzJfAt6D97-Csi16EOfQCJuaYL630Aid5cNcklojbU7fx0MfB8uWzKynunmKFKpgw-wXCok9TqH32gFQNB8AiTB3riyiTUrQZ_xQPoZJCWHDLCcYRay2W-K5cdAm3bLCDJuqEK-IfNhaFVXTMmr1_28VdX-EA9yQVvpZYd4VIPkFiYXvCgSAkzjxtIyMBWfhpZA4FexLMKU-x01YkpI.qafYBzX9VwWTZuDETNEQl9g1pfEmJql3aXtJG6lBnVo&dib_tag=se&keywords=iphone%2B15%2Bplus%2B256%2Bgb&qid=1708650373&sprefix=iphone%2B15%2Bplus%2B256%2Caps%2C153&sr=8-1&th=1',
+    url: 'https://www.amazon.com/Apple-iPhone-15-Plus-256GB/dp/B0CMT3P49Q',
     currency: '$',
     image: 'https://m.media-amazon.com/images/I/51A+nRCJlmL._AC_SX425_.jpg',
     title: 'Apple iPhone 15 Plus, 256GB, Black - Unlocked (Renewed)',
@@ -14,28 +14,33 @@ export const Products: Product[] = [
     lowestPrice: 859,
     averagePrice: 864.97,
     discountRate: 0,
-    description: '6.7inch Super Retina XDR display. Aluminum with color-infused glass back. Ring/Silent switch Dynamic Island. A magical way to interact with iPhone. A16 Bionic chip with 5-core GPU Advanced dual-camera system. 48MP Main | Ultra Wide. Super-high-resolution photos (24MP and 48MP). Next-generation portraits with Focus and Depth Control. 4X optical zoom range Emergency SOS via satellite. Crash Detection. Roadside Assistance via satellite Up to 26 hours video playback. USB C, Supports USB 2. Face ID',
+    description:
+      '6.7 inch Super Retina XDR display. Aluminum with color-infused glass back. Ring/Silent switch Dynamic Island. A magical way to interact with iPhone. A16 Bionic chip with 5-core GPU Advanced dual-camera system. 48MP Main | Ultra Wide. Super-high-resolution photos (24MP and 48MP). Next-generation portraits with Focus and Depth Control. 4X optical zoom range Emergency SOS via satellite. Crash Detection. Roadside Assistance via satellite Up to 26 hours video playback. USB C, Supports USB 2. Face ID',
     category: 'Cell Phones & Accessories',
     reviewsCount: 29,
+    recommendation: 85,
     stars: 4.7,
     isOutOfStock: false
   },
   {
     _id: '2',
-    url: 'https://www.amazon.com/Monitor-FreeSync-Premium-Refresh-Support/dp/B0CJQ7V6M8/ref=sr_1_2?crid=2YGW0OQ7KZ5IH&dib=eyJ2IjoiMSJ9.R5WDBwpB_2JWyNq9a4LWOt3aCNQmgkShqjhMwN-baNPg4qOPsqgnQ7qqD1b-yrdd65DTozFNQAKy25p4r3t_2u60R3P5QY176-Apfm2So-pQHm3RDMhoA-LE10AAdrPRphp5pMp1pCdAXKo6YIqpKK8NqCYtRiC1BvV6HMxInjePdjUdwzNQvkzJ8GdXjrh8_6kdx6YWL6LmyRZAvQ2GFc87NfSL2BRz1eIEovj8NVs.vfy0V5cWgTxGFcGpUhA47zoxblY1BdHvj8U__tCDDkQ&dib_tag=se&keywords=Acer%2BNitro%2BKG241YA%2Bmonitor&qid=1708650738&sprefix=acer%2Bnitro%2Bkg241ya%2Bmonito%2Caps%2C143&sr=8-2&th=1',
+    url: 'https://www.amazon.com/Monitor-FreeSync-Premium-Refresh-Support/dp/B0CJQ7V6M8',
     currency: '$',
     image: 'https://m.media-amazon.com/images/I/71lKsFn1SHL._AC_SX355_.jpg',
-    title: 'Acer Nitro 23.8" Full HD 1920 x 1080 PC Gaming IPS Monitor | AMD FreeSync Premium | 180Hz Refresh | Up to 0.5ms | HDR10 Support | 99% sRGB | 1 x Display Port 1.2 & 2 x HDMI 2.0 | KG241Y M3biip',
+    title:
+      'Acer Nitro 23.8" Full HD 1920 x 1080 PC Gaming IPS Monitor | AMD FreeSync Premium | 180Hz Refresh | Up to 0.5ms | HDR10 Support | 99% sRGB | 1 x Display Port 1.2 & 2 x HDMI 2.0 | KG241Y M3biip',
     currentPrice: 119.99,
     originalPrice: 149.99,
     priceHistory: [],
     highestPrice: 155.99,
     lowestPrice: 119.99,
-    averagePrice: 119.99,
+    averagePrice: 149.99,
     discountRate: 20,
-    description: '6.7inch Super Retina XDR display. Aluminum with color-infused glass back. Ring/Silent switch Dynamic Island. A magical way to interact with iPhone. A16 Bionic chip with 5-core GPU Advanced dual-camera system. 48MP Main | Ultra Wide. Super-high-resolution photos (24MP and 48MP). Next-generation portraits with Focus and Depth Control. 4X optical zoom range Emergency SOS via satellite. Crash Detection. Roadside Assistance via satellite Up to 26 hours video playback. USB C, Supports USB 2. Face ID',
+    description:
+      '23.8" Full HD (1920 x 1080) Widescreen IPS Monitor | AMD FreeSync Premium Technology Refresh Rate: 180Hz | Response Time: 1ms (G to G) - Up to 0.5ms (G to G) | Pixel Pitch: 0.275mm Color Gamut: 99% sRGB | HDR10 Support | Zero-Frame Design VESA mounting compliant (100 x 100mm) | Ergonomic Tilt: -5° to 15° Ports: 1 x Display Port 1.2 and 2 x HDMI 2.0 (HDMI Cable Included)',
     category: 'Computer Monitors',
     reviewsCount: 29,
+    recommendation: 76,
     stars: 4.7,
     isOutOfStock: false
   },
@@ -44,17 +49,19 @@ export const Products: Product[] = [
     url: 'https://www.amazon.in/Bacca-Bucci-Essential-Everyday-Purpose/dp/B0C3XVB8GK',
     currency: '₹',
     image: 'https://m.media-amazon.com/images/I/71fn1hHssYL._SL1500_.jpg',
-    title: "Bacca Bucci Essential Your Everyday All Purpose Walking Running Casual Shoes",
+    title:
+      'Bacca Bucci Essential Your Everyday All Purpose Walking Running Casual Shoes',
     currentPrice: 1099,
     originalPrice: 2499,
     priceHistory: [],
     highestPrice: 2499,
     lowestPrice: 1099,
-    averagePrice: 1099,
+    averagePrice: 2499,
     discountRate: 56,
-    description: '6.7inch Super Retina XDR display. Aluminum with color-infused glass back. Ring/Silent switch Dynamic Island. A magical way to interact with iPhone. A16 Bionic chip with 5-core GPU Advanced dual-camera system. 48MP Main | Ultra Wide. Super-high-resolution photos (24MP and 48MP). Next-generation portraits with Focus and Depth Control. 4X optical zoom range Emergency SOS via satellite. Crash Detection. Roadside Assistance via satellite Up to 26 hours video playback. USB C, Supports USB 2. Face ID',
+    description:
+      "Total Comfort for Everyday Use: Extra padding at the tongue and collar helps keep your feet feeling comfortable. We also placed engineered mesh—which is stronger and more flexible than regular mesh—throughout the top for lightweight breathability. Supportive Steps: Impactwire technology is integrated with a midfoot band for total support that helps keep your feet in place. Snap, Run, and Pop: This Shoe is more Lightweight than our predecessor, with durable foam that delivers a smooth, responsive ride. We paired it with an outsole unit at the forefoot and the heel for an energized feel. Smooth Transitions: The heel shape is designed to optimize landing, helping you easily transition from heel to toe. We've paired it with thick foam for a responsive ride. More Benefits: The tongue is separated from the upper to give room for different foot shapes. The waffle-inspired outsole gives you excellent traction. Grooves on the rubber sole allow for natural motion.",
     category: 'Shoes',
-    reviewsCount: 175,
+    reviewsCount: 176,
     stars: 3.9,
     isOutOfStock: false
   },
@@ -63,7 +70,8 @@ export const Products: Product[] = [
     url: 'https://www.amazon.in/Bacca-Bucci-Essential-Everyday-Purpose/dp/B0C3XVB8GK',
     currency: '₹',
     image: 'https://m.media-amazon.com/images/I/71fn1hHssYL._SL1500_.jpg',
-    title: "Bacca Bucci Essential Your Everyday All Purpose Walking Running Casual Shoes",
+    title:
+      'Bacca Bucci Essential Your Everyday All Purpose Walking Running Casual Shoes',
     currentPrice: 1099,
     originalPrice: 2499,
     priceHistory: [],
@@ -71,7 +79,8 @@ export const Products: Product[] = [
     lowestPrice: 1099,
     averagePrice: 1099,
     discountRate: 56,
-    description: '6.7inch Super Retina XDR display. Aluminum with color-infused glass back. Ring/Silent switch Dynamic Island. A magical way to interact with iPhone. A16 Bionic chip with 5-core GPU Advanced dual-camera system. 48MP Main | Ultra Wide. Super-high-resolution photos (24MP and 48MP). Next-generation portraits with Focus and Depth Control. 4X optical zoom range Emergency SOS via satellite. Crash Detection. Roadside Assistance via satellite Up to 26 hours video playback. USB C, Supports USB 2. Face ID',
+    description:
+      '6.7inch Super Retina XDR display. Aluminum with color-infused glass back. Ring/Silent switch Dynamic Island. A magical way to interact with iPhone. A16 Bionic chip with 5-core GPU Advanced dual-camera system. 48MP Main | Ultra Wide. Super-high-resolution photos (24MP and 48MP). Next-generation portraits with Focus and Depth Control. 4X optical zoom range Emergency SOS via satellite. Crash Detection. Roadside Assistance via satellite Up to 26 hours video playback. USB C, Supports USB 2. Face ID',
     category: 'Shoes',
     reviewsCount: 175,
     stars: 3.9,
@@ -82,7 +91,8 @@ export const Products: Product[] = [
     url: 'https://www.amazon.in/Bacca-Bucci-Essential-Everyday-Purpose/dp/B0C3XVB8GK',
     currency: '₹',
     image: 'https://m.media-amazon.com/images/I/71fn1hHssYL._SL1500_.jpg',
-    title: "Bacca Bucci Essential Your Everyday All Purpose Walking Running Casual Shoes",
+    title:
+      'Bacca Bucci Essential Your Everyday All Purpose Walking Running Casual Shoes',
     currentPrice: 1099,
     originalPrice: 2499,
     priceHistory: [],
@@ -90,7 +100,8 @@ export const Products: Product[] = [
     lowestPrice: 1099,
     averagePrice: 1099,
     discountRate: 56,
-    description: '6.7inch Super Retina XDR display. Aluminum with color-infused glass back. Ring/Silent switch Dynamic Island. A magical way to interact with iPhone. A16 Bionic chip with 5-core GPU Advanced dual-camera system. 48MP Main | Ultra Wide. Super-high-resolution photos (24MP and 48MP). Next-generation portraits with Focus and Depth Control. 4X optical zoom range Emergency SOS via satellite. Crash Detection. Roadside Assistance via satellite Up to 26 hours video playback. USB C, Supports USB 2. Face ID',
+    description:
+      '6.7inch Super Retina XDR display. Aluminum with color-infused glass back. Ring/Silent switch Dynamic Island. A magical way to interact with iPhone. A16 Bionic chip with 5-core GPU Advanced dual-camera system. 48MP Main | Ultra Wide. Super-high-resolution photos (24MP and 48MP). Next-generation portraits with Focus and Depth Control. 4X optical zoom range Emergency SOS via satellite. Crash Detection. Roadside Assistance via satellite Up to 26 hours video playback. USB C, Supports USB 2. Face ID',
     category: 'Cell Phones & Accessories',
     reviewsCount: 175,
     stars: 3.9,
@@ -98,7 +109,7 @@ export const Products: Product[] = [
   },
   {
     _id: '6',
-    url: 'https://www.amazon.com/Quencher-FlowState-Stainless-Insulated-Smoothie/dp/B0CJZMP7L1/ref=zg_bs_c_kitchen_d_sccl_1/138-1372279-9483861?pd_rd_w=ekYtS&content-id=amzn1.sym.309d45c5-3eba-4f62-9bb2-0acdcf0662e7&pf_rd_p=309d45c5-3eba-4f62-9bb2-0acdcf0662e7&pf_rd_r=4FQW1Z5J0DB295MB0GYY&pd_rd_wg=7KKIa&pd_rd_r=b9fdc619-3177-4bef-8de7-8532d51509cf&pd_rd_i=B0CJZMP7L1&th=1',
+    url: 'https://www.amazon.com/Quencher-FlowState-Stainless-Insulated-Smoothie/dp/B0CJZMP7L1',
     currency: '$',
     image: 'https://m.media-amazon.com/images/I/51zaCVh6SIL._AC_SY879_.jpg',
     title:
@@ -120,7 +131,7 @@ export const Products: Product[] = [
   },
   {
     _id: '7',
-    url: 'https://www.amazon.com/OneOdio-PRO1030-DJ-Headphone-Black/dp/B01N6ZJH96/ref=zg_bs_c_musical-instruments_d_sccl_4/138-1372279-9483861?pd_rd_w=8Ly1g&content-id=amzn1.sym.309d45c5-3eba-4f62-9bb2-0acdcf0662e7&pf_rd_p=309d45c5-3eba-4f62-9bb2-0acdcf0662e7&pf_rd_r=4FQW1Z5J0DB295MB0GYY&pd_rd_wg=7KKIa&pd_rd_r=b9fdc619-3177-4bef-8de7-8532d51509cf&pd_rd_i=B01N6ZJH96&psc=1',
+    url: 'https://www.amazon.com/OneOdio-PRO1030-DJ-Headphone-Black/dp/B01N6ZJH96',
     currency: '$',
     image: 'https://m.media-amazon.com/images/I/810x8VKZbyL._AC_SY355_.jpg',
     title: 'OneOdio Wired Over Ear Headphones Studio Monitor',
@@ -144,19 +155,21 @@ export const Products: Product[] = [
     url: 'https://www.amazon.com/INIU-High-Speed-Flashlight-Powerbank-Compatible/dp/B07CZDXDG8/ref=zg_bs_c_wireless_d_sccl_9/138-1372279-9483861?pd_rd_w=Lnrdp&content-id=amzn1.sym.309d45c5-3eba-4f62-9bb2-0acdcf0662e7&pf_rd_p=309d45c5-3eba-4f62-9bb2-0acdcf0662e7&pf_rd_r=4FQW1Z5J0DB295MB0GYY&pd_rd_wg=7KKIa&pd_rd_r=b9fdc619-3177-4bef-8de7-8532d51509cf&pd_rd_i=B07CZDXDG8&th=1',
     currency: '$',
     image: 'https://m.media-amazon.com/images/I/516tnauVb+L._AC_SY450_.jpg',
-    title: 'INIU Portable Charger, Slimmest 10000mAh 5V/3A Power Bank, USB C in&out High-Speed Charging Battery Pack, External Phone Powerbank Compatible with iPhone 15 14 13 12 11 Samsung S22 S21 Google iPad etc',
+    title:
+      'INIU Portable Charger, Slimmest 10000mAh 5V/3A Power Bank, USB C in&out High-Speed Charging Battery Pack, External Phone Powerbank Compatible with iPhone 15 14 13 12 11 Samsung S22 S21 Google iPad etc',
     currentPrice: 19.99,
     originalPrice: 29.99,
     priceHistory: [],
     highestPrice: 37.99,
     lowestPrice: 13.39,
-    averagePrice: 19.99,
+    averagePrice: 29.99,
     discountRate: 33,
     description:
       'The Safe Choice for Charging. Our chargers are designed to meet the highest safety standards, each backed by the industry-leading 3-year refresh care. So you can have peace of mind knowing that your devices are always in good hands.',
     category: 'Portable Power Banks',
-    reviewsCount: 99194,
-    stars: 4.4,
+    reviewsCount: 92094,
+    recommendation: 79,
+    stars: 4.6,
     isOutOfStock: false,
     users: []
   },
@@ -185,7 +198,8 @@ export const Products: Product[] = [
     url: 'https://www.amazon.com/fire-tv-stick-with-3rd-gen-alexa-voice-remote/dp/B08C1W5N87/ref=zg_bs_c_amazon-devices_d_sccl_2/138-1372279-9483861?pd_rd_w=IHLB8&content-id=amzn1.sym.309d45c5-3eba-4f62-9bb2-0acdcf0662e7&pf_rd_p=309d45c5-3eba-4f62-9bb2-0acdcf0662e7&pf_rd_r=4FQW1Z5J0DB295MB0GYY&pd_rd_wg=7KKIa&pd_rd_r=b9fdc619-3177-4bef-8de7-8532d51509cf&pd_rd_i=B08C1W5N87&psc=1',
     currency: '$',
     image: 'https://m.media-amazon.com/images/I/51TjJOTfslL._AC_SY355_.jpg',
-    title: 'Amazon Fire TV Stick, HD, sharp picture quality, fast streaming, free & live TV, Alexa Voice Remote with TV controls',
+    title:
+      'Amazon Fire TV Stick, HD, sharp picture quality, fast streaming, free & live TV, Alexa Voice Remote with TV controls',
     currentPrice: 39.99,
     originalPrice: 39.99,
     priceHistory: [],
@@ -193,7 +207,8 @@ export const Products: Product[] = [
     lowestPrice: 31.99,
     averagePrice: 35.99,
     discountRate: 0,
-    description: '50% more powerful streaming, plus convenient TV controls Fire TV Stick simplifies streaming with power, volume, and mute buttons in a single remote. And with 50% more power than the previous generation, Fire TV Stick delivers quick app starts and fast streaming in Full HD.',
+    description:
+      '50% more powerful streaming, plus convenient TV controls Fire TV Stick simplifies streaming with power, volume, and mute buttons in a single remote. And with 50% more power than the previous generation, Fire TV Stick delivers quick app starts and fast streaming in Full HD.',
     category: 'Streaming Media Players',
     reviewsCount: 453089,
     stars: 4.8,
